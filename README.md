@@ -4,7 +4,7 @@ I have done some basic analysis using SQL
 
 Here I am going to give my code with explanation but I am attaching my .sql file in this repository, So If you want to run those SQL queries you can use that file and can run run those queries in one go.
 
-#1.Seasonal Trends
+# 1.Seasonal Trends
 SELECT
     year,
     month,
@@ -15,7 +15,7 @@ ORDER BY year, month;
 
 ----This query will reveal seasonal patterns, enabling the team to anticipate peak travel times, plan maintenance during low-demand periods, and optimize resources and staff allocation according to demand fluctuations.
 
-# 2. Journey Type Comparison Query:
+# 2. Journey Type Comparison Q
 SELECT
     journey_type,
     SUM(journeys_millions) AS total_journeys
@@ -25,7 +25,7 @@ ORDER BY total_journeys DESC;
 
 ----Understanding the popularity of different journey types allows for targeted improvements or investments in the most utilized transport modes. It helps in allocating resources, focusing on infrastructure development, and adjusting schedules based on demand for specific types of transport.
 
-#3.  Year-on-Year Growth Rate Query:
+# 3.  Year-on-Year Growth Rate Query:
 
 SELECT
     j1.year,
