@@ -15,7 +15,7 @@ ORDER BY year, month;
 
 ----This query will reveal seasonal patterns, enabling the team to anticipate peak travel times, plan maintenance during low-demand periods, and optimize resources and staff allocation according to demand fluctuations.
 
-# 2. Journey Type Comparison Q
+# 2. Journey Type Comparison Query
 SELECT
     journey_type,
     SUM(journeys_millions) AS total_journeys
